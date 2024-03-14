@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcrossfi_qavurdagli=self.webpackChunkcrossfi_qavurdagli||[]).push([[770],{1966:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
