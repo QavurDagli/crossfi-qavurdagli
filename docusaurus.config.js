@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'qavurdagli', // Usually your GitHub org/user name.
+  organizationName: 'QavurDagli', // Usually your GitHub org/user name.
   projectName: 'crossfi-qavurdagli', // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/qavurdagli/crossfi-qavurdagli/tree/master/',
+            'https://github.com/QavurDagli/crossfi-qavurdagli/tree/master/',
         },
         blog: false,
         theme: {
@@ -74,7 +74,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/qavurdagli',
+            href: 'https://github.com/QavurDagli',
             label: 'GitHub',
             position: 'right',
           },
