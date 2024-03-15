@@ -76,8 +76,8 @@ crossfid config chain-id $CFI_CHAIN_ID
 crossfid init --chain-id $CFI_CHAIN_ID $CFI_NODENAME
 
 # Copying the Genesis and addrbook Files
-wget https://github.com/AnatolianTeam/Anatolian-Team-Services/raw/main/docs/Testnet/Cosmos-Ecosystem/crossfi/files/genesis.json -O $HOME/.mineplex-chain/config/genesis.json
-wget https://github.com/AnatolianTeam/Anatolian-Team-Services/raw/main/docs/Testnet/Cosmos-Ecosystem/crossfi/files/addrbook.json -O $HOME/.mineplex-chain/config/addrbook.json
+wget https://github.com/qavurdagli/crossfi-qavurdagli-Services/raw/main/docs/Testnet/Cosmos-Ecosystem/crossfi/files/genesis.json -O $HOME/.mineplex-chain/config/genesis.json
+wget https://github.com/qavurdagli/crossfi-qavurdagli-Services/raw/main/docs/Testnet/Cosmos-Ecosystem/crossfi/files/addrbook.json -O $HOME/.mineplex-chain/config/addrbook.json
 
 # Set up the minimum gas price
 sed -i -e 's|^minimum-gas-prices *=.*|minimum-gas-prices = "5000000000mpx"|' $HOME/.mineplex-chain/config/app.toml
