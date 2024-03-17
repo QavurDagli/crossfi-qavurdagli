@@ -12,7 +12,7 @@ systemctl stop crossfid
 cp $HOME/.mineplex-chain/data/priv_validator_state.json $HOME/.mineplex-chain/priv_validator_state.json.backup
 crossfid tendermint unsafe-reset-all --home $HOME/.mineplex-chain --keep-addr-book
 
-SNAP_RPC="https://rpc-t-crossfi.anatolianteam.com:443"
+SNAP_RPC="https://rpc-t-crossfi.qavurdagli.com:443"
 
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height)
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000))
